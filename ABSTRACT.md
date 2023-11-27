@@ -1,5 +1,9 @@
+In the **NTUT 4K Drone Photo Dataset for Human Detection** authors furnish 4K photos extracted from drone videos captured in Taiwan. Authors claim, that contemporary drones are outfitted with 4K video cameras, and the heightened resolution of the images facilitates modern object detectors in discerning smaller objects. Despite this capability, many drone image datasets typically offer only downscaled images. The dataset is curated by the AIoT Lab at the National Taiwan University of Technology (NTUT).
 
-Sample image template:
-<img src="https://github.com/dataset-ninja/gland-segmentation/assets/78355358/f158d0dd-71d5-41a2-aba5-4a5f57d54c35" alt="image" width="800">
+Sometimes humans may be blocked. In this case, the following convention is proposed:
 
-<span style="font-size: smaller; font-style: italic;">Image description.</span>
+* *block25* (Object is blocked 25~50%)
+* *block50* (Object is blocked 50~75%)
+* *block75* (Object is blocked 75~90%)
+
+Also, the dataset propose *recognizable* objects for the purpose of identification task.
